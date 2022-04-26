@@ -1,0 +1,51 @@
+body{
+    border: 1140px;
+    background-color: hsl(216, 12%, 8%);
+}
+section{
+    margin: 500px 500px;
+    background-color:hsl(213, 19%, 18%);
+    width: 25%;
+    height: 60%;
+    border-radius: 10px;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-color: hsl(217, 12%, 63%);
+    margin-top: 30px;
+    background-position: 10%;
+}
+h2{
+    color: white;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+    color: hsl(217, 12%, 63%);
+}
+input[type=button] {
+    margin: 15px 10px;
+    width: 40px;
+    border: 0px;
+    height: 40px;
+    border-radius: 50%;
+}
+input[type=button]:hover {
+    background-color: orange;
+}
+.submit{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    width: 200px;
+    height: 30px;
+    margin: 25px 60px;
+    border-radius: 15px;
+}
+.submit:link, .submit:hover {
+    color: black;
+    background-color: hsl(25, 97%, 53%);
+    
+}
